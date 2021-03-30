@@ -1,0 +1,202 @@
+:root{
+    --var-color-blanco: #ffffff;
+    --var-color-azul:  #2d94fc;
+    --var-color-negro:  #222222;
+     --var-color-azul-oscuro: #272643;
+   --var-color-azul-secundario:#214151;
+   --var-color-gris:#D3D3D3;
+}
+
+.nav{
+    position: fixed;
+    
+}
+/* .navbar{
+	position: fixed;
+	
+	display: flex;
+
+
+} */
+
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../assets/estoy.jpg);
+    background-size: contain;
+    background-position: center;
+    padding: 180px 0px;
+    background-repeat: no-repeat;
+}
+
+/* Sobre mi */
+
+.card-body{
+    padding: 0;
+}
+.acerca{
+    padding: 3em 0;
+  
+}
+
+
+.img-cuerpo{
+    width: 50%; 
+    height: auto;
+    border-radius: 40%;
+}
+
+.pasatiempos{
+    list-style: none;
+}
+
+.container-gray{
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+    background-color: lightgray;
+    padding: 6em 0;
+}
+.conocimientos{
+    padding: 6em 0;
+}
+
+.img-thumbnail{
+    background-color: transparent !important;
+}
+
+.img-conocimientos{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.card{
+    background: transparent !important;
+}
+
+
+
+
+/* .sobre-mi {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/estoy.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 180px 0px;
+} */
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:hover {
+text-decoration: none;
+text-transform: none;
+}
+
+.icons i{
+font-size: 2em;
+
+
+}
+
+.form{
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    padding: 20px;
+}
+#titulo{
+/* text-decoration: none; */
+color: #ffffff;
+
+
+/* Social Bar */
+
+}
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+/* .fab {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+} */
+.fa-facebook-square{
+    color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+
+    background: #2E406E;
+}
+.fa-youtube-square {
+    color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+
+    background: #E83028;
+}
+.fa-twitter-square{
+    color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+    background: #339DC5;
+
+}
+
+.fab:hover{
+    padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+
+}
